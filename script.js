@@ -613,7 +613,7 @@ const bookingSteps = [
   },
   {
     title: "Fecha y Hora",
-    subtitle: "Elige cuándo quieres venir a Hustle Studio",
+    subtitle: "Elige cuándo quieres venir a Estilo F Peluqueria",
     key: "datetime",
   },
   {
@@ -871,9 +871,9 @@ bookingNextBtn.addEventListener("click", () => {
 function finishBooking() {
   const h = bookingSelections.hairdresser;
   const u = bookingSelections.user;
-  const phone = "2914425849";
+  const phone = "5492915773462";
 
-  const message = `¡Hola Hustle Studio! Quisiera reservar un turno:
+  const message = `¡Hola Estilo F Peluqueria! Quisiera reservar un turno:
 - *Cliente:* ${u.nombre} ${u.apellido}
 - *Barbero:* ${h.nombre}
 - *Fecha:* ${bookingSelections.date}
